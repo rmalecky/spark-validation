@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+
+  "properties": {
+    "name": {
+        "type": "string"
+    },
+    "bool": {
+        "type": "boolean"
+    },
+    "abc": {
+        "type": "string",
+        "enum": ["a", "b", "c"]
+    },
+    "int": {
+        "type": "integer"
+    },
+    "true": {
+        "type": "boolean",
+        "enum": [true]
+    }
+  }
+}
